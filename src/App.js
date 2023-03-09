@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from './logo.gif';
 import './App.css';
+
 
 function App() {
   return (
@@ -7,8 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Jnode
-          Cosmos Ecosystem
+          Probe Orbiter Cosmos Ecosystem          
         </p>
         <a
           className="App-link"
