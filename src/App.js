@@ -8,19 +8,38 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Probe Orbiter Cosmos Ecosystem          
+          Probe Orbiter Cosmos Ecosystem
         </p>
-        <a
-          className="App-link"
-          href="https://explorer.jordi-stack.site"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Explorer
-        </a>
+        <div className="link-container">
+          <a
+            className="App-link"
+            href="https://blog.probeorbiter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Docs
+          </a>
+          <a
+            className="App-link"
+            href="https://exp.probeorbiter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explorer
+          </a>
+          <a
+            className="App-link"
+            href="https://galaxie.co/p/jordi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Project
+          </a>
+        </div>
       </header>
     </div>
   );
 }
 
 export default App;
+

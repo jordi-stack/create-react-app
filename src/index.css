@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.link-container {
+  display: flex;
+}
+.App-link {
+  width: 55px;
+  height: 25px;
+  background-color: #000000;
+  color: rgb(252, 252, 252);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
