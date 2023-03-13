@@ -2,15 +2,14 @@ import logo from './logo.gif';
 import './App.css';
 import React from 'react';
 
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Probe Orbiter Cosmos Ecosystem
-        </p>
+        <div className="string">
+          <p className="greeting en">P<span style={{color: 'white'}}>r</span>obe Orbiter Cosmos Ecosystem</p> 
+        </div>
         <div className="link-container">
           <a
             className="App-link"
@@ -43,6 +42,7 @@ function App() {
 }
 
 export default App;
+
 
 const desktopModeToggle = document.getElementById('desktop-mode-toggle');
 desktopModeToggle.addEventListener('click', () => {
