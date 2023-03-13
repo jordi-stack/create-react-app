@@ -68,3 +68,25 @@
 	from {background-position:0 0;}
 	to {background-position:10000px 0;}
 }
+
+.desktop-switch {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+
+#desktop-mode-toggle {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .desktop-switch {
+    display: none;
+  }
+}
