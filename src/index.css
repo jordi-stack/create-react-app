@@ -17,8 +17,8 @@ code {
 }
 
 :root {
-  --clr-neon: hsl(167, 82%, 63%);
-  --clr-bg: hsl(0, 0%, 10%);
+  --clr-neon: #00eeff;
+  --clr-bg: #0e0e0e;
 }
 
 *,
