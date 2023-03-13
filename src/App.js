@@ -1,8 +1,24 @@
 import logo from './logo.gif';
 import './App.css';
-
+import React, { useEffect } from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  useEffect(() => {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      toast.warning('Using desktop mode for better experience', {
+        position: 'top-right',
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
+    }
+  }, []);
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -42,4 +58,3 @@ function App() {
 }
 
 export default App;
-
